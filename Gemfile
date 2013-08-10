@@ -51,4 +51,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
+# Use Bootstrap sass for sexy stuff
+gem 'bootstrap-sass', '~> 2.2.2.0'
