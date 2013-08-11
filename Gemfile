@@ -8,6 +8,8 @@ group :production do
 	gem 'pg'
 end
 
+#More fixes for Heroku with Ruby 4
+gem 'rails_12factor', group: :production
 
 group :development, :test do
 	gem 'sqlite3'
