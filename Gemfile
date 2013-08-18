@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
 
+# Add in User Auth
+gem 'devise'
+
+# Add in form formatting
+gem 'simple_form'
+
 # Fixing stuff to deploy to Heroku - different dbase to local dev
 group :production do
 	gem 'pg'
